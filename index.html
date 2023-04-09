@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- This is title of webpage -->
+    <title>My TODO List</title>
+
+    <!-- metadata  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- here CSS filed is linked to index html file -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<!-- body of todo list start from here -->
+<body>
+    <aside class="leftnav">
+        <h1>Ashwini Amber</h1>
+        <a href="#">All</a>
+        <a href="#Remaining">Remaining</a>
+        <a href="#Completed">Completed</a>
+        <a href="">Clear Completed</a>
+        
+    </aside>  
+
+    <div id="myDIV" class="header">
+        <h2 style="margin:5px">My To Do List</h2>
+        <input type="search" id="userInputList" placeholder="Enter List">
+        <span onclick="newElement()" class="Button">Add List</span>
+        <span id="total-tasks">Total tasks: <span id="tasks-counter">0</span></span>
+      </div>
+      
+    <ul id="userList">
+        
+    </ul>
+    
+    
+
+   
+
+<!-- JS file linked here in index html file -->
+    <script src="main.js"></script>
+
+    
+
+</body>
+
+</html>
